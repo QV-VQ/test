@@ -8,6 +8,6 @@ Discover some of the amazing places I visited in a solor trip around Asia, Ocean
 * Vainilla Javascript
 * Eslint for code static test
 
-## Build by ODCenteno
+## Build by FDSC
 
-Visit the ODCenteno [Around the world website]()
+Visit the FDSC [Around the world website](https://qv-vq.github.io/test/)
