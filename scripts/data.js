@@ -1,6 +1,6 @@
 export const articlesContent = [
   {
-    title: "Valle de Yosemite",
+    title: "Stuttgart",
     imageUrl: "./images/stuttgart.webp",
     imageAlt: "Image of a beautiful hill in Stuttgart Germany",
     iconUrl: "./images/heart.svg",
@@ -26,7 +26,7 @@ export const articlesContent = [
   {
     title: "Japan",
     imageUrl: "./images/japan.webp",
-    imageAlt: "Image of Tokyo Japan",
+    imageAlt: "Image of downtown Tokyo Japan",
     iconUrl: "./images/heart.svg",
     likedIconUrl: "./images/heart-liked.svg",
     isLiked: false,
@@ -34,7 +34,7 @@ export const articlesContent = [
   {
     title: "Chichenitza",
     imageUrl: "./images/chichenitza.webp",
-    imageAlt: "Image of main piramid in Chichenitz",
+    imageAlt: "Image of main piramid at Chichenitza",
     iconUrl: "./images/heart.svg",
     likedIconUrl: "./images/heart-liked.svg",
     isLiked: false,
@@ -42,7 +42,7 @@ export const articlesContent = [
   {
     title: "CDMX",
     imageUrl: "./images/cdmx.webp",
-    imageAlt: "Image of Bellas Artes palace in downtown Mevico city",
+    imageAlt: "Image of Bellas Artes palace in downtown Mexico city",
     iconUrl: "./images/heart.svg",
     likedIconUrl: "./images/heart-liked.svg",
     isLiked: false,
