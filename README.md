@@ -1,13 +1,33 @@
-# Traveling around the world
+Tripleten web_project_around
 
-Discover some of the amazing places I visited in a solor trip around Asia, Oceania, and Europe.
+A responsive web application showcasing a traveler's journey through various destinations, allowing users to view, add, and manage photo cards representing different places.
 
-## Tools and tecnologies used
+✨ Features Profile Editing: Update the user's name and profession via a popup form.
 
-* HTML and CSS
-* Vainilla Javascript
-* Eslint for code static test
+Add New Places: Introduce new destination cards with images and titles.
 
-## Build by FDSC
+Interactive Cards:
 
-Visit the FDSC [Around the world website](https://qv-vq.github.io/test/)
+Like button toggles to indicate favorites.
+
+Delete button removes unwanted cards.
+
+Clicking on an image opens a larger view in a popup.
+
+Form Validation: Ensures that all inputs meet specified criteria before submission.
+
+Responsive Design: Optimized for various screen sizes, from mobile to desktop.
+
+🛠️ Technologies Used HTML5 & CSS3: Structured markup and styling with Flexbox and Grid layouts.
+
+JavaScript (ES6): Dynamic DOM manipulation and event handling.
+
+BEM Methodology: Organized and maintainable CSS class naming convention.
+
+Responsive Design: Media queries for adaptability across devices.
+
+Git & GitHub: Version control and project hosting.
+
+📸 Live Demo Experience the live version here
+
+https://qv-vq.github.io/web_project_around/
