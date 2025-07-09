@@ -9,6 +9,6 @@ export default class UserInfor {
   }
 
   setUserInfo() {
-    // toma los datos del nuevo usuario y los agrega en la página.
+    // converts the new user's data and adds it to the page.
   }
 }
