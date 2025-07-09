@@ -27,13 +27,13 @@ class Card {
     cardLikeIcon.src = this._iconUrl ?? "./images/heart.svg";
     cardLikeIcon.alt = "like icon";
     cardLikeIcon.dataset.isLiked = this._isLiked;
-    cardLikeIcon.title = "Da click para marcarla o desmarcar como favorita";
+    cardLikeIcon.title = "Click in order to like or dislike";
 
     const cardDeleteIcon = this._cardElement.querySelector(".card__delete-icon");
     cardDeleteIcon.src = "./images/delete.svg";
     cardDeleteIcon.alt = "Delete icon";
     cardDeleteIcon.dataset.isLiked = this._isLiked;
-    cardDeleteIcon.title = "Da click para eliminar esta tarjeta";
+    cardDeleteIcon.title = "Click in order to delete card";
   }
 
   _defineImageOrientation() {
