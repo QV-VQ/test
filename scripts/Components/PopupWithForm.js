@@ -10,11 +10,11 @@ export default class PopupWithForm extends Popup {
 
   setEventListeners() {
     super();
-    // debe agregar al formulario un controlador de eventos submit y el detector de eventos click en el icono para cerrar.
+    // You must add a submit event handler and a click event listener to the form to close the icon.
   }
 
   close() {
     super();
-    // limpia el formulario.
+    // Wipe form.
   }
 }
