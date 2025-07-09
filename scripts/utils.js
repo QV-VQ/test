@@ -12,8 +12,8 @@ export function updateDetails() {
   const savedName = localStorage.getItem("name");
   const savedDescription = localStorage.getItem("description");
 
-  navName.textContent = savedName ?? "Jacques Cousteau";
-  navDescription.textContent = savedDescription ?? "Edita el perfil para agregar una descripción";
+  navName.textContent = savedName ?? "Jane doe";
+  navDescription.textContent = savedDescription ?? "Edit profile to add a description";
 }
 
 export function toggleModal(popup) {
