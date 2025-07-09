@@ -19,7 +19,7 @@
         <!-- Synchronous CSS -->
         <link rel="stylesheet" href="./pages/index.css"/>
         <!-- Open Graph / Facebook -->
-        <meta property="og:locale" content="es_ES"/>
+        <meta property="og:locale" content="en"/>
         <meta property="og:type" content="website"/>
         <meta property="og:title" content="Your Page Title"/>
         <meta property="og:description" content="Brief description"/>
@@ -47,7 +47,7 @@
                             Traveler
                         </p>
                     </div>
-                    <button type="button" class="button nav__button-add" title="Da clic para agregar un nuevo lugar"></button>
+                    <button type="button" class="button nav__button-add" title="Click to add a new place"></button>
                 </nav>
             </header>
             <main class="main">
@@ -59,9 +59,9 @@
                             Edit Profile
                         </h2>
                         <fieldset class="popup__fields">
-                            <input type="text" class="popup__input" id="popup-input-name" name="edit-name" placeholder="Nombre" minlength="2" maxlength="40" required/>
+                            <input type="text" class="popup__input" id="popup-input-name" name="edit-name" placeholder="Name" minlength="2" maxlength="40" required/>
                             <span id="popup-input-name-error" class="popup__span-error"></span>
-                            <input type="text" class="popup__input" id="popup-input-description" name="edit-description" minlength="2" maxlength="200" placeholder="Acerca de mí" required/>
+                            <input type="text" class="popup__input" id="popup-input-description" name="edit-description" minlength="2" maxlength="200" placeholder="About me" required/>
                             <span id="popup-input-description-error" class="popup__span-error"></span>
                         </fieldset>
                         <button type="submit" class="button popup__button-submit" id="popup-button-profile-submit" disabled>
@@ -76,9 +76,9 @@
                             New Place
                         </h2>
                         <fieldset class="popup__fields">
-                            <input type="text" class="popup__input" id="popup-input-title" name="edit-name" placeholder="Título" minlength="2" maxlength="30" required/>
+                            <input type="text" class="popup__input" id="popup-input-title" name="edit-name" placeholder="Title" minlength="2" maxlength="30" required/>
                             <span id="popup-input-title-error" class="popup__span-error"></span>
-                            <input type="text" class="popup__input" id="form-img-src" name="edit-description" pattern="https://.*" placeholder="Enlace a la imagen" required/>
+                            <input type="text" class="popup__input" id="form-img-src" name="edit-description" pattern="https://.*" placeholder="Image link" required/>
                             <span id="form-img-src-error" class="popup__span-error"></span>
                         </fieldset>
                         <button type="submit" class="button popup__button-submit" id="popup-button-place-submit" disabled>
@@ -97,7 +97,7 @@
                     <article class="card articles__card">
                         <img class="card__delete-icon" src="./images/delete.svg" alt="delete icon" id="delete"/>
                         <picture class="card__picture">
-                            <img class="card__image" src="./images/dibraies.webp" alt="Example of alternative description" data-orientation="horizontal"/>
+                            <img class="card__image" src="./images/dibraies.webp" alt="Image of a beautiful hill in Stuttgart Germany" data-orientation="horizontal"/>
                         </picture>
                         <div class="card__place-info">
                             <h3 class="card__place-title">
