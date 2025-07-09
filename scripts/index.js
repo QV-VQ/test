@@ -52,6 +52,7 @@ cardsSection.renderItems();
   });
 })();
 
-// TODO: crear instancia de cada popup
+// // create an instance of each popup
+
 const examplepop = new Popup(config.popupPlaceSelector);
 examplepop.open();
